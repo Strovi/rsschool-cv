@@ -1,1 +1,1 @@
-https://Strovi.github.io/rsschool-cv/rsschool-cv-html/cv
+https://Strovi.github.io/rsschool-cv/
