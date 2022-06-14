@@ -1,3 +1,8 @@
+.rss {width: 121px;
+  height: 45px;
+  background-image: url(https://img.freepik.com/free-vector/set-of-torii-gates-in-the-water_52683-44986.jpg?w=2000);
+  background-size: contain;
+  background-repeat: no-repeat;}
 @font-face {
     font-family: Roboto;
      src: url("assets/fonts/Roboto.ttf");
@@ -47,7 +52,6 @@
         display: flex;
         flex-wrap: wrap;
       }
-      
       .section {
         width: 50%;
       }
