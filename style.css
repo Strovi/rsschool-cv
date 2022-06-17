@@ -29,8 +29,8 @@
         list-style: none;
       }
       .nav-link {
-        padding: 0 20px;
-        line-height: 50px;
+        padding: 0 10px;
+        line-height: 25px;
       }
       .nav-link {
         transition: .3s;
@@ -82,21 +82,7 @@
         position: relative;
         padding-left: 30px;
       }
-      .section-item::before {
-        content: "";
-        position: absolute;
-        top: 8px;
-        left: 0px;
-        width: 10px;
-        height: 10px; 
-        border: 1px solid #829985;
-        border-radius: 50%;
-      }
-      .ava {
-        border: width 20px;
-        border-right: 20px;
-     
-       }
+    
        .col-1-2 {
         width: 50%;
         float: left;
@@ -107,7 +93,7 @@
       }
       .col-1-4 {
         width: 25%;
-        float: left;
+        float: right;
       }
       .col-2-3 {
         width: 66.6666666667%;
