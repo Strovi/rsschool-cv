@@ -1,2 +1,1 @@
-https://Strovi.github.io/rsschool-cv/cv
-https://Strovi.github.io/rsschool-cv/
+https://github.com/Strovi/rsschool-cv/blob/travel/teavel/index
