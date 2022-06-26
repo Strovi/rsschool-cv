@@ -1,102 +1,107 @@
-@font-face {
-    font-family: Roboto;
-     src: url("assets/fonts/Roboto.ttf");
-   }
-  * {
-    box-sizing: border-box;
-  }
-  body {min-height: 100vh;
-    margin: 0;
-    padding: 0;}
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .container {
-        max-width: 1440px;
-        margin: 0 auto;
-      }
-      .nav-list {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-      }
-      html {
-        scroll-behavior: smooth; 
-      }
-      .nav-list {
-        list-style: none;
-      }
-      .nav-link {
-        padding: 0 10px;
-        line-height: 25px;
-      }
-      .nav-link {
-        transition: .3s;
-      }
-      .section-item a {
-        color: #829985;
-        text-decoration: none;  
-        transition: color 0.5s;
-      }
-      .section-item a:hover {
-        color: #4d2323;
-      }
-      .main-container {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .section {
-        width: 50%;
-      }
-      @media (max-width: 768px) {
-        .section {
-          width: 100%;
-        }
-      }
-      body {
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 1;
-        color: #4d2323;
-      }
-      .first {
-        font-size: 20px;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        color: #829985;
-      }
-      .link {
-        text-decoration: none;
-        color: #829985;
-        transition: color 0.5s;
-      }
-      
-      .link:hover {
-        color: #5d7260;
-      }
-      .section-item {
-        position: relative;
-        padding-left: 30px;
-      }
-    
-       .col-1-2 {
-        width: 50%;
-        float: left;
-      }
-      .col-1-3 {
-        width: 33.3333333333%;
-        float: left;
-      }
-      .col-1-4 {
-        width: 25%;
-        float: right;
-      }
-      .col-2-3 {
-        width: 66.6666666667%;
-        float: left;
-      }
+:root {
+  --main-color: #000000;
+  --text-color: #000000;
+  --dark-color: #b5bef0;
+  --light-color: #b4abdb;
+  --grey-color: #efeeec;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 980px;
+  margin: 20px auto;
+  box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+
+.header-container {
+  background-color: var(--light-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--grey-color);
+}
+
+.header-container,
+.main-container,
+.footer-container {
+  padding: 10px 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-color);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.github-logo {
+  display: flex;
+  align-items: center;
+}
+
+.my-github {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.nav-item {
+  transition: background-color 0.5s;
+  border-radius: 20px;
+}
+
+.nav-item:hover {
+  background-color: var(--dark-color);
+}
+
+.avatar-pic {
+  background-color: var(--light-color);
+  border-radius: 192px;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.name {
+  text-align: center;
+}
+
+.contacts-list {
+  list-style: none;
+}
